@@ -1,0 +1,328 @@
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+	display: block;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+li{
+	list-style-type: none;
+}
+.clear{
+	zoom:1;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+
+/*登录logo部分-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.login-logo{
+	width: 990px;
+	height: 60px;
+	margin:0 auto;
+	padding:10px 0; 
+}
+.login-logo-pic{
+	float:left;
+}
+.l-icon{
+	width: 110px;
+	height: 40px;
+	float:left;
+	margin-top: 20px;
+}
+/*登录内容部分------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.login-wrap-content{
+	background: #f1cf51;
+	height: 475px;
+}
+.login-content{
+	width: 990px;
+	height: 475px;
+	margin:0 auto;
+	background: url(../image/login-bg.jpg) 0 0 no-repeat;
+}
+.login-active{
+	color:#e4393c;
+	font-weight:800;
+}
+.login-form{
+	width: 346px;
+	height: 370px;
+	background: white;
+	position: relative;
+	top:40px;
+	float: right;
+}
+.login-select{
+	width: 346px;
+	height: 55px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 55px;
+	overflow: hidden;
+	border-bottom: 1px solid #ededed;
+}
+.login-scan{
+	width: 173px;
+	height: 55px;
+	float: left;
+	cursor: pointer;
+}
+.login-account{
+	width: 173px;
+	height: 55px;
+	float: right;
+	cursor: pointer;
+}
+.login-scan-cnt,.login-account-cnt{
+	width: 346px;
+	height: 314px;
+	overflow: hidden;
+}
+.scan-cnt-pic{
+	width: 346px;
+	height: 147px;
+	padding:30px 0;
+}
+.scan-cnt-pic img{
+	margin:0 auto;
+	cursor: pointer;
+}
+.scan-cnt-remind{
+	width: 346px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 37px;
+}
+.scan-cnt-remind a{
+	margin:0 4px;
+}
+.scan-cnt-remind a span{
+	color:#E4393C;
+}
+.scan-cnt-tips{
+	height: 51px;
+	width: 346px;
+	overflow: hidden;
+	background: #fdfdfd;
+	border-top: 1px solid #f4f4f4;
+}
+.scan-cnt-tips ul{
+	width: 306px;
+	margin:0 auto;
+	font-size: 12px;
+	color:#ededed;
+}
+.scan-cnt-tips ul li{
+	width: 102px;
+	height: 51px;
+	float: left;
+	position: relative;
+}
+.scan-cnt-tips li i{
+	background: url(../image/qr-coagent.png)no-repeat;
+	width: 25px;
+	height: 25px;
+	display: block;
+	position: absolute;
+	top:13px;
+	left: 20px;
+}
+.scan-cnt-tips li span{
+	line-height: 51px;
+	padding-left: 55px;
+}
+.scan-cnt-tips li .fast{
+	background-position: -27px;
+}
+.scan-cnt-tips li .safe{
+	background-position: -54px;
+}
+/*login-account-cnt*/
+.account-remind{
+	position: relative;
+	background: #fff6d2;
+	color:#666;
+	height: 18px;
+	width: 304px;
+	line-height: 18px;
+	margin:0 auto;
+	margin-top:10px;
+	border:1px solid #ffe57d;
+	font-size: 12px;
+	padding:3px 0;
+}
+.account-remind i{
+	background: url(../image/pwd-icons-new.png) -104px -22px no-repeat;
+	width: 16px;
+	height: 17px;
+	position: absolute;
+	left: 10px;
+	display: block;
+	overflow: hidden;
+}
+.account-remind span{
+	padding-left: 40px;
+}
+.account-form{
+	overflow: hidden;
+}
+.account-item{
+	width: 304px;
+	height: 38px;
+	position: relative;
+	margin:0 auto;
+	border:1px solid #bdbdbd;
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+.account-label{
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	background:url(../image/pwd-icons-new.png) no-repeat;
+	z-index: 3;
+	border-right: 1px solid #bdbdbd;
+}
+#loginname{
+	width: 254px;
+	height: 18px;
+	font-size: 14px;
+	border:0;
+	line-height: 18px;
+	padding:10px 0 10px 50px;
+	overflow: hidden;
+	outline: none;
+}
+.account-label-1{
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	background:url(../image/pwd-icons-new.png) no-repeat;
+	z-index: 3;
+	border-right: 1px solid #bdbdbd;
+	background-position: -48px 0;
+}
+.account-auto{
+	width: 306px;
+	margin:0 auto;
+	font-size: 12px;
+	margin-bottom: 20px;
+	position:relative;
+}
+#autoLogin,.autoLogin,.forgetpassword{
+	vertical-align: middle;
+	/*垂直居中*/
+}
+.forgetpassword{
+	position:absolute;
+	top:0;
+	right: 0
+}
+.forgetpassword:hover{
+	color:#e80031;
+}
+.login-btn{
+	width: 302px;
+	height: 31px;
+	line-height: 31px;
+	background:#e4393c; 
+	border:1px solid #e85356;
+	margin:0 auto;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.login-btn a{
+	color:#fff;
+}
+.login-way{
+	height: 49px;
+	overflow: hidden;
+	font-size: 12px;
+	background: #fcfcfc;
+	border-top: 1px solid #f4f4f4;
+}
+.login-way ul{
+	width: 308px;
+	margin:0 auto;
+	position: relative;
+}
+.login-way li{
+	float: left;
+	height: 49px;
+	line-height: 49px;
+}
+.login-way li a:hover{
+	color:#b61d1d;
+	text-decoration: underline;
+}
+.login-way ul li span{
+	margin: 0 6px;
+}
+.login-way .reg-now{
+	position: absolute;
+	right: 0;
+	font-size: 14px;
+}
+.reg-now a{
+	color:#b61d1d;
+}
+.reg-now i{
+	position: absolute;
+	top:18px;
+	left:-15px;
+	background: url(../image/pwd-icons-new.png) -104px -75px no-repeat;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+}
+/*登陆底部----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.login-footer{
+	width: 990px;
+	margin:0 auto;
+	font-size: 12px;
+	text-align: center;
+}
+.login-footer .questionnaire{
+	width: 990px;
+	text-align: right;
+	margin: 10px 0;
+}
+.questionnaire a{
+	display: block;
+	color:#999;
+}
+.questionnaire a i{
+	display:inline-block;
+	background: url(../image/jingdong.png) no-repeat;
+	width: 18px;
+	height: 14px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+.login-ft-list{
+	width: 990px;
+	margin-bottom: 10px;
+}
+.login-ft-list a{
+	color:#666;
+	margin: 0 10px;
+}
+.login-ft-list a:hover{
+	color:#e4393c;
+	text-decoration:underline;
+}
+.login-ft-copyright{
+	color:#666;
+}
